@@ -5,14 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nonagon Site</title>
   <link rel="icon" href="https://avatars.githubusercontent.com/u/240514628?s=200&v=4" type="image/x-icon">
-  <link rel="stylesheet" href="base.css"> 
+  <!-- text and base background color -->
+  <link rel="stylesheet" href="base.css">
+  <!-- stylesheet is the main page -->
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-  <div id=main class=main>
+  <div class=main>
   <div id=titleShit class=titleShit>
     <h1>Welcome To Nonagon Workshop Website</h1>
     <p>This is the official Nonagon Website!</p>
   </div>
+  <div class="stuff">
+    <h2>Things we Have!</h2>
+    <p>These are Just a few Things that we Have.</p>
+  <div class="creations">
+    <button id="myAlertButton">Click for Alert</button>
+
+    <script>
+        const button = document.getElementById('myAlertButton');
+
+        button.addEventListener('click', function() {
+            alert('This is a browser alert triggered by the button!');
+        });
+    </script>
+  </div>
+  </div> 
   </div>
 </body>
 </html>
