@@ -45,22 +45,6 @@ body {
     margin-bottom: 5px;
 }
 
-.creations button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin: 15px 0;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #4a68ff;
-    background: https://lumiere-a.akamaihd.net/v1/images/Star-Destroyer_ab6b94bb.jpeg?region=0%2C0%2C1600%2C900;
-    color: white;
-}
-
-.creations button:hover {
-    background-color: #324ef0;
-}
-
 .contribs a {
     display: block;
     margin: 5px 0;
