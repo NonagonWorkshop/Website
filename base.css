@@ -5,11 +5,8 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-image: url('/static/stars.png');
-    background-repeat: repeat;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeY2HOet7NyOX_iWxp0JrqH5gsaS2R8yVeVA&s');
     background-size: cover;
-    background-attachment: fixed;
-    transition: background 0.5s ease-in-out;
     opacity: 0;
 }
 
